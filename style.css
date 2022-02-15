@@ -1,0 +1,18 @@
+img{
+    background-color: black;
+    position: absolute;
+left: 26.04%;
+right: 61.87%;
+top: 0.8%;
+bottom: 96.8%;
+
+}
+head{
+    position: absolute;
+width: 1110px;
+height: 120px;
+left: 405px;
+top: 0px;
+
+background: #000000;
+}
