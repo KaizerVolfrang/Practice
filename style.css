@@ -72,7 +72,8 @@ html,body{
 .group_one{
     position: relative;
     height: 220px;
-    width: 1170px;    
+    width: 1170px;
+    margin-left: 65px;
     display: inline-flex;
 }
 .group_one .rectangle{
@@ -81,10 +82,11 @@ html,body{
     height: 190px;
     width: 290px;
     margin: 0px auto;
-    margin-left: 0px;
 }
+.group_one .rectangle:nth-child(1),
 .group_one .rectangle:nth-child(3)
 {
+    margin-left: 0px;
     margin-right: 0px;
 }
 .group_one .rectangle:nth-child(1)
@@ -100,6 +102,7 @@ html,body{
     height: 220px;
     width: 1170px;    
     display: inline-flex;
+    margin-left: 65px;
 }
 .group_two .rectangle{
     background: #C4C4C4;
@@ -107,10 +110,11 @@ html,body{
     height: 190px;
     width: 290px;
     margin: 0px auto;
-    margin-left: 0px;
 }
+.group_two .rectangle:nth-child(1),
 .group_two .rectangle:nth-child(3)
 {
+    margin-left: 0px;
     margin-right: 0px;
 }
 .group_two .rectangle:nth-child(2)
@@ -121,6 +125,7 @@ html,body{
     height: 220px;
     width: 1170px;    
     display: inline-flex;
+    margin-left: 65px;
 }
 .big_rectangle{
     height: 220px;
@@ -136,7 +141,6 @@ html,body{
     height: 220px;
     width: 1170px;    
     display: inline-flex;
-    top=30px;
 }
 .group_four .rectangle{
     background: #C4C4C4;
@@ -144,5 +148,39 @@ html,body{
     height: 190px;
     width: 290px;
     margin: 0px auto;
-    margin-left: 0px;
+    top: 30px;
+    left: -5px;
+}
+.group_four .rectangle:nth-child(3){
+    margin-right: -50px;
+}
+.text{
+    padding: 0 20px 0 20px;
+    top: 20px;
+    position: relative;
+    font-size: 13px;
+    width: 290px;
+    height: 190px;
+}
+.footer-block__container{
+    color: aliceblue;
+    max-width: 1170px;
+    margin-top: 350px;
+    background: black;
+    height: 350px;
+    margin-left: 65px;
+}
+.footer-menu__list{
+    display: flex;
+}
+.footer-menu__item{
+    margin: 46px 40px 0px 0px;
+    width: 100px;
+}
+.footer-menu__link{
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    color: white;
+    line-height: 4px;
 }
